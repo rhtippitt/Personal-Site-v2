@@ -1,0 +1,141 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 3.125rem auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #FFF4CF;
+}
+
+hr {
+  border: 8px dotted #CFD5FF;
+  border-bottom: none;
+  width: 10%;
+  margin: 32px auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.top-container {
+  background-color: #FFF4CF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #CFD5FF;
+  color: #FFFAE8;
+  padding: 50px 0 20px;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.footer-link {
+  margin: 2em;
+  color: #6D76B3;
+  text-decoration: none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.spicy{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.spicy2{
+  float: right;
+  /*clear: _side_ does the opposite of float*/
+  margin-left: 30px;
+  width: 25%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.copyright {
+  color: #FFFAE8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75em;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #6D76B3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px; /*need to be inline-block to use margins/padding*/
+}
+
+.btn:hover {
+  background: #CFD5FF;
+  color: #6D76B3;
+  background-image: -webkit-linear-gradient(top, #CFD5FF, #CFD5FF);
+  background-image: -moz-linear-gradient(top, #CFD5FF, #CFD5FF);
+  background-image: -ms-linear-gradient(top, #CFD5FF, #CFD5FF);
+  background-image: -o-linear-gradient(top, #CFD5FF, #CFD5FF);
+  background-image: linear-gradient(to bottom, #CFD5FF, #CFD5FF);
+  text-decoration: none;
+}
